@@ -1,9 +1,9 @@
 # scrape_dsv.py
 # Purpose: Scrape a table from the Wikipedia page about Delimiter-separated values
 
-import requests  # pyright: ignore[reportMissingModuleSource]
-from bs4 import BeautifulSoup  # pyright: ignore[reportMissingModuleSource]
-import pandas as pd  # pyright: ignore[reportMissingImports]
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
 import os
 
 # 1. Download the Wikipedia page
